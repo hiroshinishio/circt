@@ -104,6 +104,8 @@ void DPIFuncOp::print(OpAsmPrinter &p) {
        getPerArgumentAttrsAttrName(), getArgumentLocsAttrName()});
 }
 
+
+
 OpFoldResult FormatLitOp::fold(FoldAdaptor adaptor) { return getLiteralAttr(); }
 
 OpFoldResult FormatDecOp::fold(FoldAdaptor adaptor) {
